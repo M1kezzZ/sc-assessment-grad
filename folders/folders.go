@@ -14,7 +14,7 @@ func GetAllFolders(req *FetchFolderRequest) (*FetchFolderResponse, error) {
 	}
 
 	var ffr = &FetchFolderResponse{Folders: r} // create a FetchFolderResponse with the folder pointers
-	return ffr, nil                             // return the FetchFolderResponse and nil for error
+	return ffr, nil                            // return the FetchFolderResponse and nil for error
 }
 
 // This func fetches all folders matching the given orgID.

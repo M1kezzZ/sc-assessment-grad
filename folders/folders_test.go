@@ -48,7 +48,7 @@ func Test_GetAllFolders(t *testing.T) {
 		assert.NotNil(t, resp)
 
 		// Check if the response contains the correct number of folders
-		assert.Len(t, resp.Folders, 3)  // Adjust based on sample data
+		assert.Len(t, resp.Folders, 3) // Adjust based on sample data
 
 		// Verify if the folders belong to the given OrgID
 		for _, folder := range resp.Folders {
